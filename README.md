@@ -39,15 +39,19 @@ function startGame(event){
 ##Cannot read property 'x' of undefined
 -
 在 updateEnemy() 这个方法中，一颗子弹（fires数组中只有一个fire元素）打中一个敌方飞机后，fires数组没有元素了报错（Uncaught TypeError: Cannot read property 'x' of undefined）解决：
+
 ```
 这个属于两个嵌套循环执行时，一旦进入了内层时，它的条件就不受外面循环控制了。
 即，在内层循环时去掉数组元素对象，但内部循环没有跳出；具体处理，在 updateEnemy 函数内部：
+```
+
 ```Javascript
    ...
     fire.y= -0;// 不直接通过 fires.splice(i,1) 移除 ; 而是让其满足在 updateFire 函数的移除条件，即可
     //stg.removeChild(fire);
     ...
 ```
---------------------------------------------------------------------------------
+
+
 [lanix516-article-6]:http://blog.csdn.net/lanix516/article/details/47357747
 [lanix516-article-7]:http://blog.csdn.net/lanix516/article/details/47382401
