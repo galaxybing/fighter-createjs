@@ -48,8 +48,6 @@ function startGame(event){
     //stg.removeChild(fire);
     ...
 ```
-```
-
 --------------------------------------------------------------------------------
 [lanix516-article-6]:http://blog.csdn.net/lanix516/article/details/47357747
 [lanix516-article-7]:http://blog.csdn.net/lanix516/article/details/47382401
