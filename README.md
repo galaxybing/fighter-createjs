@@ -26,9 +26,9 @@ function startGame(event){
 }
 ```
 
-###1.[如何使用Createjs来编写HTML5游戏（六）完成一个简单的打飞机游戏（上）][lanix516-article-6]
+###[如何使用Createjs来编写HTML5游戏（六）完成一个简单的打飞机游戏（上）][lanix516-article-6]
 所有的创建工作
-###2.[如何使用Createjs来编写HTML5游戏（七）完成一个简单的打飞机游戏（下）][lanix516-article-7]
+###[如何使用Createjs来编写HTML5游戏（七）完成一个简单的打飞机游戏（下）][lanix516-article-7]
 后面要做的就是：
 * 让星空、子弹动起来
 * 判断子弹是否与敌机相撞
